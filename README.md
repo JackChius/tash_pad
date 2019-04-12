@@ -4,11 +4,11 @@
 [![codecov](https://codecov.io/gh/yhlben/notepad/branch/master/graph/badge.svg)](https://codecov.io/gh/yhlben/notepad) [![Greenkeeper badge](https://badges.greenkeeper.io/yhlben/notepad.svg)](https://greenkeeper.io/)
 [![David](https://img.shields.io/david/yhlben/notepad.svg)](https://david-dm.org/yhlben/notepad)
 
-> 一个本地记事本。
+> 一个结合本地存储和云端同步的日志本。
 
-## 在线预览
+<!-- ## 在线预览
 
-[Online demo](http://47.107.177.146:8083)
+[Online demo](http://47.107.177.146:8083) -->
 
 ## 安装
 
@@ -43,4 +43,4 @@ yarn dev
 
 ---
 
-ps: 此项目主要是用于 typescript 学习，如有更好的想法，或者建议，欢迎提 issue，谢谢！
+<!-- ps: 此项目主要是用于 typescript 学习，如有更好的想法，或者建议，欢迎提 issue，谢谢！ -->
