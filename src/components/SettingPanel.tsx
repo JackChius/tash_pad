@@ -18,6 +18,7 @@ class SettingPanel extends React.Component<ISettingPanel> {
     this.clearData = this.clearData.bind(this);
     this.confirmClear = this.confirmClear.bind(this);
     this.downloadData = this.downloadData.bind(this);
+    this.switchVisable = this.switchVisable.bind(this);
   }
   public clearData(event): void {
     event.preventDefault();
@@ -54,6 +55,11 @@ class SettingPanel extends React.Component<ISettingPanel> {
       aTag.click();
       this.props.changeSettingPanel();
     });
+  }
+  public switchVisable( event: object ): void {
+    // console.log(typeof(event));
+    event.stopPropagation();
+    this.props.changeSettingPanel();
   }
   public render() {
     return (
@@ -104,6 +110,14 @@ class SettingPanel extends React.Component<ISettingPanel> {
                   onClick={this.clearData}
                 >
                   清空数据
+                </Button>
+              </div>
+              <div className="setting_sp_item">
+                <Button
+                  className="setting-panel-item_button"
+                  onClick={this.switchVisable}
+                >
+                  伸缩
                 </Button>
               </div>
             </div>

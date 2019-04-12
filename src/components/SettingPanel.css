@@ -8,7 +8,7 @@
   z-index: 1;
   width: 200px;
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translateX(-250px);
+  transform: translateX(-200px);
   transition: transform 0.3s;
 
   &.show {
@@ -28,5 +28,20 @@
       color: var(--bodyColor);
       border: none;
     }
+    & > .setting-sp-item_button {
+      background-color: red;
+      color: var(--bodyColor);
+      border: none;
+    }
   }
+  
+}
+
+.setting_sp_item {
+      /* background-color: red; */
+      color: var(--bodyColor);
+      border: none;
+      /* margin-left: 20px; */
+      position: absolute;
+      right: -25px;
 }

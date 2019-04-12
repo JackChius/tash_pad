@@ -45,6 +45,7 @@ class App extends React.Component<any, IAppState> {
   public toggleContent(type, e): void {
     if (arguments.length === 1) {
       type.stopPropagation();
+      // console.log('此时EEE', type);
       this.setState({
         showPanel: !!e,
       });
